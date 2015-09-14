@@ -1,0 +1,20 @@
+@include media($small-screen-up) {
+	.col-row {
+
+	@include outer-container;
+	.col {
+  		@include span-columns(4);
+	}
+
+	@for $num from 1 through 12 {
+  		.col-#{$num} {
+    		@include span-columns($num);
+  		}
+	}
+	.last {
+		@include omega();
+	}
+}
+}
+
+

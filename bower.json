@@ -1,0 +1,13 @@
+{
+  "name": "compassbuilding-rome",
+  "version": "2.0.0-beta",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "wp-normalize.scss": "~1.0",
+    "fitvids": "~1.1",
+    "accessible-menu": "GaryJones/accessible-menu#master",
+    "themicons": "cedaro/themicons#2.1.0",
+    "skip-link-focus": "~0.1.0"
+  }
+}

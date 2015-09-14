@@ -1,0 +1,87 @@
+$border-color: 				#00aeef;
+$box-background-top-color: 	#002d62;
+$box-background-bottom-color: 	$rome-blue;
+$stripe-color:				#fff;
+$box-hover-top-color:		lighten($box-background-top-color, 15);
+$box-hover-bottom-color: 	lighten($box-background-bottom-color, 15);
+$box-bg-top-actual:			#094C80;
+$box-bg-img:  #{$image-path}#{$quicklinks-background};
+$box-bg-img-hover: #{$image-path}#{$quicklinks-hover-background};
+
+.quick-links-outer {
+    background: url(#{$box-bg-img});
+  @include media($smaller-screen-up){
+      background: linear-gradient( to bottom,  $border-color, $border-color 8px, transparent 8px, transparent 202px,  $border-color 202px,  $border-color), url(#{$box-bg-img}), linear-gradient(to bottom, #00aeef, #00aeef);
+    }
+  	margin: 0 -600px;
+  	padding: 0 600px;
+}
+.quick-links-container {
+  @include media($smaller-screen-up){
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    height: 208px;
+  }
+
+  color: $base-light-font-color;
+  	.quick-link { 
+    margin-left: -5vw;
+    margin-right: -5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background: url(#{$box-bg-img});
+      @include media($smaller-screen-up){
+        background: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+          @include span-columns(4 of 12);
+          border-top: 0px solid transparent;
+          padding: 10px;
+      }
+      border-top: 8px solid $border-color; 
+  		text-align: center;
+  		height: 192px;
+  		
+
+  		cursor: pointer;
+  		    &:hover {
+     			 background: url(#{$box-bg-img-hover});
+    		}
+    	a {
+    		color: $base-light-font-color;
+    		font-size: $medium-font-size;
+    	       .img-icon {
+                max-width: 100px;
+                max-height: 100px;
+                margin-top: 10px;
+              }
+        &:hover {
+              .img-icon {
+                  max-width: 100px;
+                  max-height: 100px;
+                  @include transition(opacity, 0s, ease-in-out);
+                }
+        }
+      }	
+    	.link-info {
+    		font-size: $small-font-size;
+    	}
+    	.link-title {
+		display: block;
+    	line-height: 0.7rem;
+    		a {
+    		text-transform: uppercase;
+    		font-weight: bold;
+    		}
+    	}
+  	}
+  	.quick-link.last {
+      @include media($smaller-screen-up){
+        border-bottom: 0px;
+        @include omega();
+      }
+      border-bottom: 8px solid $border-color;
+  	}
+}

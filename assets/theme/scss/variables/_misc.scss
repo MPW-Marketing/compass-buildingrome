@@ -1,0 +1,26 @@
+// Global Border Radius
+//------------------------------------------------------------------------------
+$base-border-radius: 3px;
+$form-border-radius: $base-border-radius;
+
+// Global Shadows
+//------------------------------------------------------------------------------
+$form-box-shadow:       inset 0 1px 3px rgba(0, 0, 0, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+
+//Background Images
+//------------------------------------------------------------------------------
+$image-path:			"images/";
+$header-background: 	"/wp-content/uploads/2015/09/rome-header-new.png";
+$header-background-small: 	"mobile-header-background-new.png";
+$header-background-new:	"rome-header-new.png";
+$button-backround:		"button-background.png";
+$nav-button-background:	"rome-navbutton-background.png";
+$nav-button-background-hover: "rome-navbutton-background-hover.png";
+$alternate-nav-button-background: "events-tab-background.png";
+$alternate-nav-button-background-hover: 		"meetings-tab-background.png";
+$footer-background:		"red-bg.png";
+$quicklinks-background: "emergency-section-background.png";
+$quicklinks-hover-background: "emergency-section-background-hover.png";
+$events-tab-active-bg:		"events-tab-background.png";
+$events-tab-inactive-bg:		"meetings-tab-background.png";
