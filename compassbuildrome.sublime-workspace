@@ -287,6 +287,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assets/theme/scss/variables/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 9878,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/theme/scss/partials/_header.scss",
+			"settings":
+			{
+				"buffer_size": 2197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/theme/scss/partials/_footer-widgets.scss",
+			"settings":
+			{
+				"buffer_size": 2442,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/theme/scss/partials/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 6240,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -333,7 +365,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/damon/vagrant-local/www/buildingrome/htdocs/wp-content/themes/compass-buildingrome"
+		"/Users/damon/vagrant-local/www/buildingrome/htdocs/wp-content/themes/compass-buildingrome",
+		"/Users/damon/vagrant-local/www/buildingrome/htdocs/wp-content/themes/compass-buildingrome/assets",
+		"/Users/damon/vagrant-local/www/buildingrome/htdocs/wp-content/themes/compass-buildingrome/assets/theme",
+		"/Users/damon/vagrant-local/www/buildingrome/htdocs/wp-content/themes/compass-buildingrome/assets/theme/scss",
+		"/Users/damon/vagrant-local/www/buildingrome/htdocs/wp-content/themes/compass-buildingrome/assets/theme/scss/partials"
 	],
 	"file_history":
 	[
@@ -526,8 +562,124 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assets/theme/scss/variables/_colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4373,
+								4373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/theme/scss/partials/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/theme/scss/partials/_footer-widgets.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 239.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/theme/scss/partials/_navigation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
